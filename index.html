@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEUL's Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  
+  <div class="home">
+    <video autoplay muted loop class="background-vid">
+      <source src="vid/mount-night.mp4" type="video/mp4">
+    </video>
+    <h1>WELCOME TO LEUL'S PORTFOLIO</h1>
+  </div>
+
+  <div class="container">
+    <!-- Left Side (Black) -->
+    <div class="left-side">
+      <h1>LEUL ABERA</h1>
+      <p>An undergraduate student with an interest for both frontend and backend development, building skills across the full stack through personal projects and academic work.</p>
+      <p><br>Address - Addis Abeba ETHIOPIA</p>
+      <div class="buttons">
+        <button id="btn-introduction" onclick="scrollToSection('introduction')">Introduction</button>
+        <button id="btn-education" onclick="scrollToSection('education')">Education</button>
+        <button id="btn-projects" onclick="scrollToSection('projects')">Projects</button>
+        <button id="btn-tools" onclick="scrollToSection('tools')">Tools</button>
+      </div>
+      <div id="social" class="social-section">
+        <p>Contact</p>
+        <div class="social-icons">
+          <a href="https://t.me/al_e_u_l" target="_blank">
+            <img src="icons/telegram.png" alt="Telegram Icon" class="social-icon">
+          </a>
+          <a href="https://github.com/Leul-ab" target="_blank">
+            <img src="icons/github.png" alt="GitHub Icon" class="social-icon">
+          </a>
+          <a href="mailto:leulabera321@gmail.com" target="_blank">
+            <img src="icons/email.png" alt="Gmail Icon" class="social-icon">
+          </a>
+          <a href="https://www.instagram.com/_leul_ab" target="_blank">
+            <img src="icons/instagram.png" alt="Instagram Icon" class="social-icon">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side (White) -->
+    <div class="right-side">
+      <div id="introduction" class="green-section">
+        <p>Starting from introducing my self, I am LEUL ABERA an undergraduate computer science student with a deep interest in almost every aspect of the field. I am passionate to code and develop programs across various platforms. Trying to learn new things daily to improve my skills and enhance my knowledge. My goal is to develop a great career for myself by tapping into my creative keyboard.</p>
+      </div>
+      <div id="education" class="yellow-section">
+        <p>I am currently an undergraduate student at St Mary's University, where my passion boosted for the field. Through my coursework, I was able to learn multiple programming languages and other fundamental skills essential for computer science students. Beyond my formal education, I actively navigate through the internet and books to gather more skills, and I also completed a computer maintenance course. </p>
+      </div>
+      <div id="projects" class="red-section">
+        <p class="p1">Throughout my studies and self-learning, I have worked on multiple projects either for class assignments or self-driven initiatives that have allowed me to explore and implement different technologies. Here are some...</p>
+        <div class="project-list">
+          <p class="project-item">- Movie Gallery (Java and SQL)</p>
+          <p class="project-item">- Supermarket Management System (C++)</p>
+          <p class="project-item">- Attendance Management System (HTML, CSS, and JavaScript)</p>
+          <p class="project-item">- Explore Ethiopia Website (HTML, CSS, and JavaScript)</p>
+        </div>
+        
+        <p class="p3">I also cloned some games and websites to improve my development skills. Some of them are...</p>
+        
+        <div class="project-list">
+          <p class="project-item">- Snake and Ping Pong Game (Java and C++)</p>
+          <p class="project-item">- Guess the Random Number (Java)</p>
+          <p class="project-item">- YouTube, Snapchat, and Amazon clones (HTML, CSS, and JavaScript)</p>
+        </div>
+        <p>This projects are not available in Github for now but will be soon!</p>
+      </div>
+      <div id="tools" class="green-section">
+        <p>Programming Languages</p>
+        <div class="tools-icons programming-tools">
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/c-.png" alt="C++ Icon" class="tool-icon">
+              <span class="tool-name">C++</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/c-sharp.png" alt="C# Icon" class="tool-icon">
+              <span class="tool-name">C#</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/java.png" alt="Java Icon" class="tool-icon">
+              <span class="tool-name">Java</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/python.png" alt="Python Icon" class="tool-icon">
+              <span class="tool-name">Python</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/sql-server.png" alt="SQL Icon" class="tool-icon">
+              <span class="tool-name">SQL</span>
+            </div>
+          </div>
+        </div>
+      
+        <p>Web Developing Tools</p>
+        <div class="tools-icons web-tools">
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/html-5.png" alt="HTML Icon" class="tool-icon">
+              <span class="tool-name">HTML</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/css-3.png" alt="CSS Icon" class="tool-icon">
+              <span class="tool-name">CSS</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/java-script.png" alt="JavaScript Icon" class="tool-icon">
+              <span class="tool-name">JavaScript</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/php.png" alt="PHP Icon" class="tool-icon">
+              <span class="tool-name">PHP</span>
+            </div>
+          </div>
+        </div>
+      
+        <p>Integrated Development Environments</p>
+        <div class="tools-icons ides-tools">
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/c-logo-icon-28397.png" alt="DEV Icon" class="tool-icon">
+              <span class="tool-name">Dev C++</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/netbeans.png" alt="NetBeans Icon" class="tool-icon">
+              <span class="tool-name">NetBeans</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/micro vs.png" alt="Microsoft Visual Studio Icon" class="tool-icon">
+              <span class="tool-name">Visual Studio</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/vs code.png" alt="VS Code Icon" class="tool-icon">
+              <span class="tool-name">VS Code</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/mysql.png" alt="MySQL Icon" class="tool-icon">
+              <span class="tool-name">MySQL</span>
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon-container">
+              <img src="icons/pycharm.512x512.png" alt="PyCharm Icon" class="tool-icon">
+              <span class="tool-name">PyCharm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    // Function to scroll smoothly to the selected section
+    function scrollToSection(sectionId) {
+  const buttons = document.querySelectorAll('.buttons button');
+  buttons.forEach(button => button.classList.remove('active'));
+
+  const activeButton = document.getElementById(`btn-${sectionId}`);
+  activeButton.classList.add('active');
+
+  document.getElementById(sectionId).scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+    inline: 'nearest'
+  });
+}
+
+  
+    // Function to update active button based on scroll position
+    function updateActiveButton() {
+      const sections = document.querySelectorAll('.green-section, .yellow-section, .red-section');
+      const buttons = {
+        'introduction': document.getElementById('btn-introduction'),
+        'education': document.getElementById('btn-education'),
+        'projects': document.getElementById('btn-projects'),
+        'tools': document.getElementById('btn-tools')
+      };
+  
+      let activeButton = null;
+  
+      // Check each section to see which is currently in view
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+  
+        // Check if the section is currently in view
+        if (sectionTop < window.innerHeight && sectionTop >= 0) {
+          activeButton = buttons[section.id];
+        }
+      });
+  
+      // Remove active class from all buttons and add to the active one
+      for (const button of Object.values(buttons)) {
+        button.classList.remove('active');
+      }
+      if (activeButton) {
+        activeButton.classList.add('active');
+      }
+    }
+  
+    // Use Intersection Observer for better performance and real-time updates
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.5 // Trigger when 50% of the section is visible
+    };
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // When the section is in view, update the active button
+          const activeButton = document.getElementById(`btn-${entry.target.id}`);
+          const buttons = document.querySelectorAll('.buttons button');
+  
+          buttons.forEach(button => button.classList.remove('active')); // Remove active from all buttons
+          if (activeButton) {
+            activeButton.classList.add('active'); // Add active to the visible section's button
+          }
+        }
+      });
+    }, options);
+  
+    // Observe each section
+    document.querySelectorAll('.green-section, .yellow-section, .red-section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
+</html>

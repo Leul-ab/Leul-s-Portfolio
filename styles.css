@@ -181,7 +181,6 @@ button.active::after {
   justify-content: center;
   gap: 2vw;
   padding-top: 2vh;
-  margin: 0 auto;
 }
 
 .social-icon {
